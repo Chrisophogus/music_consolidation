@@ -1,6 +1,6 @@
 # Music Conversion Script
 
-A Python script to manage and convert FLAC and M4A music files to MP3, offering options to select specific artists, calculate file sizes, and log the process. The script includes a dry-run mode for safe testing without actual changes.
+A Python script to index and convert selected FLAC and M4A music files to MP3, offering options to select specific artists, calculate file sizes, and log the process.
 
 ---
 
@@ -12,6 +12,7 @@ A Python script to manage and convert FLAC and M4A music files to MP3, offering 
 - Calculates file size savings post-conversion.
 - Logs detailed progress and errors.
 - Supports a dry-run mode for previewing changes.
+- Archives converted files to another folder rather than delete
 
 ---
 
@@ -19,8 +20,4 @@ A Python script to manage and convert FLAC and M4A music files to MP3, offering 
 
 - Python 3.11 or higher.
 - `ffmpeg` installed on your system.
-- Virtual environment for package isolation (recommended).
-
----
-
-## Setup Instructions
+- Virtual environment for package isolation (recommended)
